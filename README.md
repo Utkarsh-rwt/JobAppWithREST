@@ -1,10 +1,10 @@
 # Job Portal
 
-[![Java 17](https://img.shields.io/badge/Java-17-ED8B00?logo=java&logoColor=white)](https://openjdk.org/)
-[![Spring Boot](https://img.shields.io/badge/Spring_Boot-4.1.1-6DB33F?logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
-[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://react.dev/)
-[![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Maven](https://img.shields.io/badge/Build-Maven-C71A36?logo=apachemaven&logoColor=white)](https://maven.apache.org/)
+<img src="https://img.shields.io/badge/Java-17-ED8B00?logo=java&amp;logoColor=white" alt="Java 17" />
+<img src="https://img.shields.io/badge/Spring_Boot-4.1.1-6DB33F?logo=springboot&amp;logoColor=white" alt="Spring Boot 4.1.1" />
+<img src="https://img.shields.io/badge/React-18-61DAFB?logo=react&amp;logoColor=black" alt="React 18" />
+<img src="https://img.shields.io/badge/Database-PostgreSQL-4169E1?logo=postgresql&amp;logoColor=white" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/Build-Maven-C71A36?logo=apachemaven&amp;logoColor=white" alt="Maven" />
 
 A simple job listing application with a React frontend and a Spring Boot REST API. Users can browse and search job posts, create listings, edit them, and delete them.
 
