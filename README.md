@@ -1,12 +1,14 @@
 # Job Portal
 
-<img src="https://img.shields.io/badge/Java-17-ED8B00?logo=java&amp;logoColor=white" alt="Java 17" />
-<img src="https://img.shields.io/badge/Spring_Boot-4.1.1-6DB33F?logo=springboot&amp;logoColor=white" alt="Spring Boot 4.1.1" />
-<img src="https://img.shields.io/badge/JPA-Spring_Data_JPA-6DB33F?logo=spring&amp;logoColor=white" alt="Spring Data JPA" />
-<img src="https://img.shields.io/badge/Hibernate-ORM-59666C?logo=hibernate&amp;logoColor=white" alt="Hibernate ORM" />
-<img src="https://img.shields.io/badge/React-18-61DAFB?logo=react&amp;logoColor=black" alt="React 18" />
-<img src="https://img.shields.io/badge/Database-PostgreSQL-4169E1?logo=postgresql&amp;logoColor=white" alt="PostgreSQL" />
-<img src="https://img.shields.io/badge/Build-Maven-C71A36?logo=apachemaven&amp;logoColor=white" alt="Maven" />
+<p>
+  <img src="https://img.shields.io/badge/Java-17-ED8B00?logo=java&amp;logoColor=white" alt="Java 17" />
+  <img src="https://img.shields.io/badge/Spring_Boot-4.1.1-6DB33F?logo=springboot&amp;logoColor=white" alt="Spring Boot 4.1.1" />
+  <img src="https://img.shields.io/badge/JPA-Spring_Data_JPA-6DB33F?logo=spring&amp;logoColor=white" alt="Spring Data JPA" />
+  <img src="https://img.shields.io/badge/Hibernate-ORM-59666C?logo=hibernate&amp;logoColor=white" alt="Hibernate ORM" />
+  <img src="https://img.shields.io/badge/React-18-61DAFB?logo=react&amp;logoColor=black" alt="React 18" />
+  <img src="https://img.shields.io/badge/Database-PostgreSQL-4169E1?logo=postgresql&amp;logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Build-Maven-C71A36?logo=apachemaven&amp;logoColor=white" alt="Maven" />
+</p>
 
 A simple job listing application with a React frontend and a Spring Boot REST API. Users can browse and search job posts, create listings, edit them, and delete them.
 
