@@ -19,15 +19,15 @@ A simple job listing application with a React frontend and a Spring Boot REST AP
 
 ### 1. Configure PostgreSQL
 
-Create a PostgreSQL database named `Demo`, then configure the connection in `src/main/resources/application.properties`:
+Create a PostgreSQL database named `Demo`, then provide the connection settings as environment variables before starting the backend:
 
-```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/Demo
-spring.datasource.username=postgres
-spring.datasource.password=your_password
+```bash
+export DB_URL=jdbc:postgresql://localhost:5432/Demo
+export DB_USERNAME=your_postgres_username
+export DB_PASSWORD=your_postgres_password
 ```
 
-Use your local PostgreSQL username and password. The application uses Hibernate's `ddl-auto=update` setting to create or update the schema.
+`DB_URL` defaults to the local `Demo` database URL if omitted. Set `DB_USERNAME` and `DB_PASSWORD` to your local PostgreSQL credentials. The application uses Hibernate's `ddl-auto=update` setting to create or update the schema.
 
 ### 2. Start the backend
 
