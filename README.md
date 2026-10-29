@@ -100,6 +100,7 @@ src/main/resources/               Spring configuration
 
 ## Aspect-oriented programming (AOP)
 
-Aspect-oriented programming keeps cross-cutting behavior—such as logging, performance measurement, and auditing—separate from the core business logic. In this project, job operations are handled by `JobService`; an aspect can observe selected service method calls and apply that shared behavior without repeating it in each method. AOP complements the service and repository layers rather than replacing them.
+The project uses Spring AOP to add behavior around methods in the `Service` package. `LoggingAspect` logs each matched method name before it runs, and `PerformanceMonitoringAspect` measures its execution time and logs the duration. `ValidationAspect` intercepts matched service methods with a `postId` argument and converts negative IDs to positive values before proceeding. These aspects are defined in `src/main/java/com/example/SpringBootREST/aop`. 
 
-![AOP screenshot](docs/images/aop.png)
+<img width="1235" height="475" alt="Screenshot From 2026-10-30 00-25-29" src="https://github.com/user-attachments/assets/4e18c0e9-aafa-4c2c-ae5d-a04c3530d1a8" />
+
