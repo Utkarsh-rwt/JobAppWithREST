@@ -97,3 +97,9 @@ src/main/java/.../Repository      Spring Data JPA repository
 src/main/java/.../Model           Job post entity
 src/main/resources/               Spring configuration
 ```
+
+## Aspect-oriented programming (AOP)
+
+Aspect-oriented programming keeps cross-cutting behavior—such as logging, performance measurement, and auditing—separate from the core business logic. In this project, job operations are handled by `JobService`; an aspect can observe selected service method calls and apply that shared behavior without repeating it in each method. AOP complements the service and repository layers rather than replacing them.
+
+![AOP screenshot](docs/images/aop.png)
